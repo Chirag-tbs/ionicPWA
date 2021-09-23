@@ -6,11 +6,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run export",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "ng build --prod"
+    "build:prod": "ng build --prod",
+    "export": "next build && next export"
   },
   "private": true,
   "dependencies": {
